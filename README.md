@@ -2,6 +2,12 @@
 
 ## Getting Started
 
+### Install
+
+```bash
+npm i @devlu/nextenv
+```
+
 Add the following to your `app/layoyt.tsx` file:
 ```tsx
 // app/layout.tsx
