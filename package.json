@@ -8,6 +8,10 @@
     "test": "vitest",
     "build": "tsc --build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisAngelFR/next-env"
+  },
   "keywords": [
     "next",
     "next.js",
