@@ -1,0 +1,7 @@
+src
+test
+tsconfig.json
+vite.config.js
+node_modules
+.gitignore
+pnpm-lock.yaml
