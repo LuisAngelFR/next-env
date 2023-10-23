@@ -19,9 +19,9 @@ export default function Layout({ children }) {
   return (
     <html lang="en">
       <body>
-        <PublicEnvProvider>
+        <EnvProvider>
           {children}
-        </PublicEnvProvider>
+        </EnvProvider>
       </body>
     </html>
   )
@@ -58,7 +58,7 @@ export default function Home() {
   const env = useClientEnv()
   return (
     <div>
-      <h1>{env.MY_ENV_VAR}</h1>
+      <h1>{env.ENV_PUBLIC_MY_ENV_VAR}</h1>
     </div>
   )
 }
