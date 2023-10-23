@@ -5,3 +5,4 @@ vite.config.js
 node_modules
 .gitignore
 pnpm-lock.yaml
+tsconfig.tsbuildinfo
