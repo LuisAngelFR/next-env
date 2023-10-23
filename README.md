@@ -13,7 +13,7 @@ Add the following to your `app/layoyt.tsx` file:
 // app/layout.tsx
 import { EnvProvider } from '@devlu/nextenv'
 
-export default dynamic = 'force-dynamic' // <-- this is required
+export const dynamic = 'force-dynamic' // <-- this is required
 
 export default function Layout({ children }) {
   return (
