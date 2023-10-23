@@ -8,7 +8,7 @@
 npm i @devlu/nextenv
 ```
 
-Add the following to your `app/layoyt.tsx` file:
+Add the following to your `app/layout.tsx` file:
 ```tsx
 // app/layout.tsx
 import { EnvProvider } from '@devlu/nextenv'

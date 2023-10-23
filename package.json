@@ -1,6 +1,6 @@
 {
   "name": "@devlu/nextenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runtime Environment variables for Next.js App Router",
   "main": "./dist/index.js",
   "scripts": {
