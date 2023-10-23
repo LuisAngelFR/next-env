@@ -1,7 +1,6 @@
-import { createContext } from 'react'
+'use client'
 
-export interface Env {
-  [key: string]: string
-}
+import { createContext } from 'react'
+import { Env } from '../types/env'
 
 export const EnvContext = createContext<Env>({})

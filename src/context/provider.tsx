@@ -1,8 +1,8 @@
 'use client'
 
-import { EnvContext, Env } from './env'
+import { Env } from '../types/env'
+import { EnvContext } from './env'
 import { ReactNode } from 'react'
-import React from 'react'
 
 interface ProviderProps {
   env: Env

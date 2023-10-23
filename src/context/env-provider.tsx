@@ -1,7 +1,6 @@
-import React from 'react';
 import { ReactNode } from 'react';
-import { Env } from './env';
 import { Provider } from './provider';
+import { Env } from '../types/env';
 
 interface EnvProviderProps {
   children: ReactNode
