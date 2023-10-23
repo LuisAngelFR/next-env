@@ -11,7 +11,7 @@ npm i @devlu/nextenv
 Add the following to your `app/layoyt.tsx` file:
 ```tsx
 // app/layout.tsx
-import { EnvProvider } from 'next-env-runtime'
+import { EnvProvider } from '@devlu/nextenv'
 
 export default dynamic = 'force-dynamic' // <-- this is required
 
@@ -33,7 +33,7 @@ export default function Layout({ children }) {
 ### For Server-Side 
 
 ```tsx
-import { useEnv } from 'next-env-runtime'
+import { useEnv } from '@devlu/nextenv'
 
 export default function Home() {
   const env = useEnv()
@@ -52,7 +52,7 @@ Only variables that start with `ENV_PUBLIC_` are available on the client side.
 ```tsx
 'use client'
 
-import { useClientEnv } from 'next-env-runtime'
+import { useClientEnv } from '@devlu/nextenv'
 
 export default function Home() {
   const env = useClientEnv()
